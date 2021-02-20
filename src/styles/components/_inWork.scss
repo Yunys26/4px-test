@@ -1,0 +1,31 @@
+.inWork {
+    .addCard {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 7px 12px;
+        background-color: $block_background;
+        border-radius: 3px;
+        border: none;
+        transition: 0.5s;
+        img {
+            margin-right: 13px;
+        }
+    }
+    
+    .addCard:hover {
+        background-color: $color_button_add;
+        border-radius: 3px;
+        border: none;
+        transition: 0.5s;
+    }
+
+    .card {
+        background: #FFFFFF;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+    }
+
+}
+
